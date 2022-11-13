@@ -54,7 +54,7 @@
                 &trans     &trans     &trans      &trans          &trans       &trans           &trans         &trans      &trans     &trans
                 &trans     &trans     &trans      &trans          &trans       &trans           &kp LARW       &kp DARW    &kp UARW   &kp RARW
                 &trans     &trans     &trans      &trans          &trans       &trans           &kp HOME       &kp PG_DN   &kp PG_UP  &kp END
-                                      &trans      &trans          &trans       &kp ENTER        &kp DEL        &KP RET
+                                      &trans      &trans          &trans       &kp ENTER        &kp DEL        &kp RET
             >;
         };
 
