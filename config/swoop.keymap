@@ -30,7 +30,7 @@
 #define SCRL_RIGHT SCROLL_HOR(U_MOUSE_SCROLL_MAX)
 
 &mmv {
-  acceleration-exponent = <1>;
+  acceleration-exponent = <1.1>;
   time-to-max-speed-ms = <1500>;
   delay-ms = <0>;
 };
@@ -64,10 +64,10 @@
         //                   |   ESC   | SPACE  |  ENTER  |       |        |        |         |
         //                   '--------+---------+---------'       '--------+--------+---------'
             bindings = <
-                &kp Q       &kp W       &kp E           &kp R            &kp T                     &kp Y            &kp U           &kp I        &kp O       &kp P
-                &hm LGUI A  &hm LALT S  &hm LCTRL D     &hm LSHFT F      &kp G                     &kp H            &hm RSHFT J     &hm RCTRL K  &hm RALT L  &hm RGUI QUOT
-                &kp Z       &kp X       &kp C           &kp V            &kp B                     &kp N            &kp M           &kp COMMA    &kp DOT     &kp FSLH
-                                        &lt FUNC_L ESC  &lt NAV_L SPACE  &lt MOUSE_L TAB           &lt SYM_L ENTER  &lt NUM_L BKSP  &lt MEDIA_L RET
+                &kp Q       &kp W       &kp E            &kp R            &kp T                    &kp Y            &kp U           &kp I        &kp O       &kp P
+                &hm LGUI A  &hm LALT S  &hm LCTRL D      &hm LSHFT F      &kp G                    &kp H            &hm RSHFT J     &hm RCTRL K  &hm RALT L  &hm RGUI QUOT
+                &kp Z       &kp X       &kp C            &kp V            &kp B                    &kp N            &kp M           &kp COMMA    &kp DOT     &kp FSLH
+                                        &lt MEDIA_L ESC  &lt NAV_L SPACE  &lt MOUSE_L TAB          &lt SYM_L ENTER  &lt NUM_L BKSP  &lt FUNC_L RET
             >;
         };
 
@@ -85,7 +85,7 @@
                 &trans   &trans   &trans   &trans   &trans         &trans           &trans           &trans         &trans            &trans
                 &trans   &trans   &trans   &trans   &trans         &mmv M_LEFT      &mmv M_DOWN      &mmv M_UP      &mmv M_RIGHT      &trans
                 &trans   &trans   &trans   &trans   &trans         &mwh SCRL_LEFT   &mwh SCRL_DOWN   &mwh SCRL_UP   &mwh SCRL_RIGHT   &trans
-                                  &trans   &trans   &trans         &mkp RCLK        &mkp LCLK        &mkp MCLK
+                                  &trans   &trans   &trans         &mkp LCLK        &mkp RCLK        &mkp MCLK
             >;
         };
 
@@ -112,7 +112,7 @@
                 &trans   &trans   &trans   &trans   &trans         &trans        &trans          &trans          &trans       &trans
                 &trans   &trans   &trans   &trans   &trans         &kp C_PREV    &kp C_VOL_UP    &kp C_VOL_DN    &kp C_NEXT   &trans
                 &trans   &trans   &trans   &trans   &trans         &trans        &kp C_BRI_DEC   &kp C_BRI_INC   &trans       &trans
-                                  &trans   &trans   &trans         &kp C_STOP   &kp C_PLAY      &kp C_MUTE
+                                  &trans   &trans   &trans         &kp C_STOP    &kp C_PLAY      &kp C_MUTE
             >;
         };
 
