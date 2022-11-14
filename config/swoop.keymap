@@ -30,9 +30,9 @@
 #define SCRL_RIGHT SCROLL_HOR(U_MOUSE_SCROLL_MAX)
 
 &mmv {
-  acceleration-exponent = 1;
-  time-to-max-speed-ms = 1500;
-  delay-ms = 0;
+  acceleration-exponent = <1>;
+  time-to-max-speed-ms = <1500>;
+  delay-ms = <0>;
 };
 
 // Using layer taps on thumbs, having quick tap as well helps w/ repeating space/backspace
