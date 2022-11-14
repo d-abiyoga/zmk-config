@@ -109,9 +109,9 @@
 
         media_layer { // 5
             bindings = <
-                &trans   &trans   &trans   &trans   &trans         &trans        &trans          &trans           &trans       &trans
-                &trans   &trans   &trans   &trans   &trans         &kp C_PREV    &kp C_VOL_UP    &kp C_VOL_DOWN   &kp C_NEXT   &trans
-                &trans   &trans   &trans   &trans   &trans         &trans        &kp C_BRI_DEC   &kp C_BRI_INC    &trans       &trans
+                &trans   &trans   &trans   &trans   &trans         &trans        &trans          &trans          &trans       &trans
+                &trans   &trans   &trans   &trans   &trans         &kp C_PREV    &kp C_VOL_UP    &kp C_VOL_DN    &kp C_NEXT   &trans
+                &trans   &trans   &trans   &trans   &trans         &trans        &kp C_BRI_DEC   &kp C_BRI_INC   &trans       &trans
                                   &trans   &trans   &trans         &kp C_STOP   &kp C_PLAY      &kp C_MUTE
             >;
         };
