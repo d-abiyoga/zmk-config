@@ -2,4 +2,4 @@ on: [push, pull_request, workflow_dispatch]
 
 jobs:
   build:
-    uses: ftc/zmk/.github/workflows/build-user-config.yml@mouse-ftc
+    uses: ftc/zmk/.github/workflows/build-user-config.yml@2e89ca036f91e8d503a3e73d8e2742a4a7d230f8
