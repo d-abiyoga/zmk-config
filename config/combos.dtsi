@@ -1,0 +1,22 @@
+#include "../zmk-nodefree-config/keypos_def/keypos_34keys.h"
+
+#define COMBO_GLOBAL_QUICKTAP 100
+/ {
+  combos {
+    compatible = "zmk,combos";
+    combo_esc {
+      timeout-ms = <50>;
+      global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
+
+      key-positions = <LT3 LT2>;
+      bindings = <&kp ESC>;
+    };
+    combo_del {
+      timeout-ms = <50>;
+      global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
+
+      key-positions = <RT3 RT2>;
+      bindings = <&kp DEL>;
+    };
+  };
+};
