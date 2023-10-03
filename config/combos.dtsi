@@ -18,5 +18,26 @@
       key-positions = <RT3 RT2>;
       bindings = <&kp DEL>;
     };
+    combo_copy {
+      timeout-ms = <25>;
+      global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
+
+      key-positions = <LB3 LB2>;
+      bindings = <&kp LC(X)>;
+    };
+    combo_cut {
+      timeout-ms = <25>;
+      global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
+
+      key-positions = <LB3 LB1>;
+      bindings = <&kp LC(INS)>;
+    };
+    combo_paste {
+      timeout-ms = <25>;
+      global-quick-tap-ms = <COMBO_GLOBAL_QUICKTAP>;
+
+      key-positions = <LB2 LB1>;
+      bindings = <&kp LS(INS)>;
+    };
   };
 };
