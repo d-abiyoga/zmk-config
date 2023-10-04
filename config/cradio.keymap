@@ -61,7 +61,7 @@
             hold-trigger-key-positions = <KEYS_L KEYS_T>;
             hold-trigger-on-release;
         };
-        hml_s: homerow_mods_left {
+        hml_s: homerow_mods_left_shift {
             compatible = "zmk,behavior-hold-tap";
             label = "homerow mods left";
             #binding-cells = <2>;
@@ -73,7 +73,7 @@
             hold-trigger-key-positions = <KEYS_R KEYS_T>;
             hold-trigger-on-release;
         };
-        hmr_s: homerow_mods_right {
+        hmr_s: homerow_mods_right_shift {
             compatible = "zmk,behavior-hold-tap";
             label = "homerow mods right";
             #binding-cells = <2>;
