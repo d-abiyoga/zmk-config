@@ -25,14 +25,11 @@
 #define MEDIA_L 5
 #define FUNC_L 6
 
-
-
 // Using layer taps on thumbs, having quick tap as well helps w/ repeating space/backspace
 &lt {
     tapping-term-ms = <175>; 
     quick-tap-ms = <200>;
 };
-
 
 / {
     behaviors {
@@ -144,7 +141,7 @@
     // ├─────────────┼─────────────┼─────────────┼────────────────┼────────────────┤   ├────────────────┼───────────────┼─────────────┼─────────────┼─────────────┤
            &trans        &trans        &trans         &trans           &trans             U_WH_L           U_WH_D          U_WH_U        U_WH_R        &trans
     // ├─────────────┼─────────────┼─────────────┼────────────────┼────────────────┤   ├────────────────┼───────────────┼─────────────┼─────────────┼─────────────┤
-                                                      &trans           &trans             U_BTN1           U_BTN2       
+                                                      &trans           &trans             U_BTN1           U_BTN3       
     //                                           ╰────────────────┴────────────────╯   ╰────────────────┴───────────────╯
             >;
         };
