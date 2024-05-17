@@ -26,6 +26,7 @@
 #define FUNC_L 6
 
 
+
 // Using layer taps on thumbs, having quick tap as well helps w/ repeating space/backspace
 &lt {
     tapping-term-ms = <175>; 
