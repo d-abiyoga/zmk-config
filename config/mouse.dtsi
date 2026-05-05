@@ -1,7 +1,8 @@
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 1000
 #include <dt-bindings/zmk/pointing.h>
 
 &mmv {
-  acceleration-exponent = <1>;      
+  acceleration-exponent = <2>;      
   time-to-max-speed-ms = <700>;    
   delay-ms = <0>;                   
 };
